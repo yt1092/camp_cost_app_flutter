@@ -2,28 +2,18 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="description" content="Camp Cost App">
-
-  <!-- GitHub Pages でリポジトリ名のサブディレクトリに置く場合 -->
+  <title>キャンプ費用計算</title>
+  <!-- GitHub Pages に置くときのベースパス -->
   <base href="/camp_cost_app_flutter/">
 
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Camp Cost App">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <!-- Manifest -->
+  <meta name="description" content="Flutter Web アプリ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="manifest" href="manifest.json">
-
-  <title>Camp Cost App</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-  <!-- Flutter Web Bootstrap -->
-  <script src="flutter_bootstrap.js" async></script>
+  <script src="flutter.js" defer></script>
+  <script src="flutter_service_worker.js" defer></script>
 </body>
 </html>
